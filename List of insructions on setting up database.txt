@@ -1,0 +1,7 @@
+1. Download and install Wampserver
+2. Import the SQL file into MYSQL using either the source or ./ commands
+3. load game from server
+4. play game, upon winning a button will appear at the bottom of the screen
+5. Click button and if the database is there then the php file will read on
+the button click, will insert the results of your game and display the
+top 10 leaderboard

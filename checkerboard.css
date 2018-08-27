@@ -1,0 +1,24 @@
+table, td {border: 3px solid rgb(89, 142, 175)}
+td {padding: 50px;
+   width: calc(100%/8);
+   display: table-cell;}
+   
+table {
+   table-layout: fixed;
+   border-collapse: collapse;
+      }
+.block {
+   display: block;
+      }
+body{
+      background-color: brown;
+      color: white;
+      background-image: url(checkers_background.jpg);
+   }
+.checkerboard {
+   background-color: gray;
+   }
+
+.checkerboard:nth-child(2n) {
+   background-color:black;
+   }
